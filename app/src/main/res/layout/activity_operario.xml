@@ -74,11 +74,23 @@
                     android:layout_margin="2dp"
                     android:layout_weight="1"
                     android:background="@android:color/holo_blue_dark"
-                    android:text="Lista de Medidores"
+                    android:text="Lista de Reparto"
                     android:textColor="#ffffff"
                     android:textSize="18sp" />
 
             </LinearLayout>
+
+            <Button
+                android:id="@+id/b_scanner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@android:color/holo_blue_dark"
+                android:drawableLeft="@mipmap/qrcode"
+                android:padding="16dp"
+                android:text="Scanner"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/text1"

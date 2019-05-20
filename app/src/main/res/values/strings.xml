@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lectura de Medidores</string>
+    <string name="app_name">Reparto de Facturas</string>
     <string name="usuario">Usuario</string>
     <string name="contrasena">Contraseña</string>
     <string name="entrar">Entrar</string>

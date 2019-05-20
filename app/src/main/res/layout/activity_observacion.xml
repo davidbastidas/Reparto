@@ -47,47 +47,13 @@
                 android:textSize="24sp"
                 android:theme="@style/MyEditText" />
 
-            <TextView
-                android:id="@+id/textHabitado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="¿Esta Habitado?"
-                android:textColor="@color/colorPrimary"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
             <RadioGroup
                 android:id="@+id/rg_habitado"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/rb_hab_si"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:checked="true"
-                    android:text="SI" />
-
-                <RadioButton
-                    android:id="@+id/rb_hab_no"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="NO" />
             </RadioGroup>
-
-            <TextView
-                android:id="@+id/textVisible"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="¿Anomalia es Visible?"
-                android:textColor="@color/colorPrimary"
-                android:textSize="18sp"
-                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/rg_visible"
@@ -95,20 +61,6 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/rb_an_si"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="SI" />
-
-                <RadioButton
-                    android:id="@+id/rb_an_no"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:checked="true"
-                    android:text="NO" />
             </RadioGroup>
 
             <TextView
