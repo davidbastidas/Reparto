@@ -18,9 +18,9 @@
     <application
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
-        android:icon="@mipmap/aviso"
+        android:icon="@drawable/bill"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/bill"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -34,7 +34,9 @@
         <activity android:name=".Vistas.AnomaliaActivity" />
         <activity android:name=".Vistas.DetalleActivity" />
         <activity android:name=".Vistas.ObservacionActivity" />
-        <activity android:name=".Vistas.OperarioActivity" />
+        <activity
+            android:name=".Vistas.OperarioActivity"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Vistas.ServiciosActivity" />
         <activity android:name=".Vistas.BuscarActivity" />
         <activity android:name=".Vistas.BarriosActivity" />

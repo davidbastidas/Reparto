@@ -345,6 +345,13 @@ public class OperarioActivity extends AppCompatActivity {
 
             if (resultCode == RESULT_OK) {
                 String contents = data.getStringExtra("SCAN_RESULT");
+                System.out.println("scaner: " +contents);
+                Intent intentar = new Intent(OperarioActivity.this, ServiciosActivity.class);
+                intentar.putExtra(Constants.EXTRA_NIC, contents);
+                intentar.putExtra(Constants.EXTRA_MEDIDOR, "");
+                intentar.putExtra(Constants.EXTRA_DIRECCION, "");
+                intentar.putExtra(Constants.EXTRA_REALIZADO, false);
+                startActivityForResult(intentar, Constants.SERVICIO_REQUEST_CODE);
             }
             if(resultCode == RESULT_CANCELED){
                 //handle cancel

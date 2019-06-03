@@ -68,17 +68,15 @@ public class ServiciosActivity extends AppCompatActivity {
                 String direccion = extras.getString(Constants.EXTRA_DIRECCION);
                 boolean realizados = extras.getBoolean(Constants.EXTRA_REALIZADO);
 
-                String sqlAud = "", sqlPci = "";
+                String sqlAud = "";
                 if(!direccion.equals("")){
                     sqlAud = " and direccion like '%" + direccion + "%'";
-                    sqlPci = " and direccion like '%" + direccion + "%'";
                 }
                 if(!nic.equals("")){
                     sqlAud = " and nic like '%" + nic + "%'";
                 }
                 if(!medidor.equals("")){
                     sqlAud = " and medidor like '%" + medidor + "%'";
-                    sqlPci = " and medidor like '%" + medidor + "%'";
                 }
 
                 int rel = 0;

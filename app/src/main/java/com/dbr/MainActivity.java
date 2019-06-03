@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
             //editor.putString("ip", "192.168.100.133");
         }
         if(preferencias.getString(Constants.RUTAWEB, "").equals("")){
-            editor.putString(Constants.RUTAWEB, "controloperativo/public");
+            editor.putString(Constants.RUTAWEB, "repartofac/public");
         }
         editor.commit();
 
